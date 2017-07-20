@@ -16,8 +16,25 @@ p{
 	background-color: #FFFFFF55;
 	border-color: black;
 	border-style: solid;
-	border-width: 5px
-}
-#links{
+	border-width: 5px;
 	font-size: 25px;
+}
+#link{
+	width: 100%;
+   	height: 100%;
+   	position: relative;
+}
+#btn{
+	width: 300px;
+}
+#tex{
+	float: center;
+   	position: absolute;
+   	left: 47%;
+   	top: 32%;
+   	z-index: 1000;
+   	padding: 5px;
+   	color: #FFFFFF;
+   	font-weight: bold;
+   	font-size: 25px;
 }
